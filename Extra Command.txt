@@ -1,0 +1,14 @@
+To delete all files and directories except favicon.ico, including non-empty directories, run:
+
+
+find . ! -name 'favicon.ico' ! -name '.' -exec rm -rf {} +
+
+
+
+
+To copy the files and directories from /home/decoder/Desktop/CodeWarriors to /opt/lampp/htdocs, 
+you can use the cp command with the -r option to recursively copy directories. Here's the command:
+
+sudo cp -r /home/decoder/Desktop/CodeWarriors/* /opt/lampp/htdocs/
+
+
